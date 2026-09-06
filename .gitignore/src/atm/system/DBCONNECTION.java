@@ -12,18 +12,16 @@ public class DBCONNECTION {
 
         String url = "jdbc:mysql://localhost:3306/atm_system";
         String username = "root";
-        String password = "Tolibadi@123#";
+        String password = "Password";
 
         try {
-
             Connection connection = DriverManager.getConnection(url,username,password);
-
             return connection;
+            
         } catch (SQLException e) {
 
             System.out.println("Connection to database failed!");
             e.printStackTrace();
-
             return null;
         }
     }
