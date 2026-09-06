@@ -48,21 +48,17 @@ public class ATMSYSTEM{
             
             AccountDAO dao = new AccountDAO(); 
             
-            boolean success = dao.createAccount(account); //CALLING THE METHOD WE JUST CREATED
-
+            boolean success = dao.createAccount(account);
             if(success) {
                 
                 isRunning  = false;
-                
                 System.out.println("Account has been created successfully");
                 System.out.println("Account number: " + accNum);
                 System.out.println("Balance: " + balance);
                 
             }else{
                 System.out.println("Account could not be created in the database.");
-            }
-            
-            
+            }           
     }
     }
     public Account logging(){
@@ -100,15 +96,14 @@ public class ATMSYSTEM{
             // Ask database to check account number + PIN
             Account account = dao.login(accNum, pinNum);
 
-            if (account != null) { //if the account is not missing/empty do the following
+            if (account != null) { 
 
             System.out.println();
             System.out.println("Login was successful!");
 
-            return account; //send this method to whomever called me 
+            return account; 
 
         } else {
-
             System.out.println();
             System.out.println("Account number or  pin is incorrect!");
             System.out.println("Please try again.");
@@ -116,9 +111,7 @@ public class ATMSYSTEM{
     }
 
     return null;
-}
-    
-        
+}        
         
     public void main_menu() throws SQLException{ //NOW THE ACCOUNT HERE RECEIVE THE LOGGED IN USER
         
