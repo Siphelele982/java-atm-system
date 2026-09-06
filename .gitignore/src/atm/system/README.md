@@ -58,10 +58,10 @@ ATM MENU
 3. Exit
 
 **Create Account**
-The user enters their account number, PIN, and initial balance. The account information is then stored in the MySQL database.
+The user enters their account number, pin, and initial balance. The account information is then stored in the MySQL database.
 
 Login
-The user enters their account number and PIN. The system validates the credentials against the information stored in the database.
+The user enters their account number and pin the system validates the credentials against the information stored in the database.
 
 After successfully logging in, the user can access the account menu:
 
@@ -88,6 +88,7 @@ Technologies Used
 * Git & GitHub
 
 Database
+
 The application connects to a local MySQL database using JDBC.
 
 Example connection:
@@ -95,7 +96,7 @@ Example connection:
 Java Application -- JDBC -- MySQL -- ATM Database
 
 Future Improvements
--
+
 - Change PIN functionality
 - Improve error handling and validation
 - Add password or PIN hashing and stronger authentication
