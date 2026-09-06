@@ -1,10 +1,10 @@
-# Java ATM System
+**Java ATM System**
 
 A console-based ATM application developed in Java that simulates basic banking operations. The system allows users to create accounts, securely log in, manage their balances, transfer money between accounts, and view their transaction history.
 
 The application uses **MySQL** to store and manage account data, making information persistent even after the application is closed.
 
-## Features
+**Features**
 
 * Create a bank account
 * Account number and PIN validation
@@ -35,7 +35,7 @@ The application uses **MySQL** to store and manage account data, making informat
 * Database Connectivity
 * CRUD Operations
 
-### Main Classes
+**Main Classes**
 
 **ATMSYSTEM.java**
 Contains the main ATM application logic, menus, user interaction, and banking operations.
@@ -49,7 +49,7 @@ Handles communication between the Java application and the MySQL database, inclu
 **DBCONNECTION.java**
 Establishes the connection between the Java application and the MySQL database using JDBC.
 
-## How It Works
+How It Works
 When the program starts, the user is presented with the main ATM menu:
 
 ATM MENU
@@ -57,10 +57,10 @@ ATM MENU
 2. Login
 3. Exit
 
-### Create Account
+**Create Account**
 The user enters their account number, PIN, and initial balance. The account information is then stored in the MySQL database.
 
-### Login
+Login
 The user enters their account number and PIN. The system validates the credentials against the information stored in the database.
 
 After successfully logging in, the user can access the account menu:
@@ -74,11 +74,11 @@ ACCOUNT MENU
 6. Logout
 ```
 
-### Database
+Database
 The application uses **MySQL** as its database and **JDBC** to allow Java to communicate with MySQL.
 The database is responsible for storing persistent account information instead of keeping all account data only in memory.
 
-## Technologies Used
+Technologies Used
 * Java
 * MySQL
 * JDBC (Java Database Connectivity)
@@ -88,14 +88,14 @@ The database is responsible for storing persistent account information instead o
 * NetBeans IDE
 * Git & GitHub
 
-## Database
+**Database**
 The application connects to a local MySQL database using JDBC.
 
 Example connection:
 
 Java Application -- JDBC -- MySQL -- ATM Database
 
-## Future Improvements
+**Future Improvements**
 
 * Change PIN functionality
 * Improve error handling and validation
@@ -108,5 +108,5 @@ Java Application -- JDBC -- MySQL -- ATM Database
 * Improve database security
 * Deploy the application using a remote database
 
-## Author
+Author 
 **Siphelele Tolibadi**
