@@ -18,7 +18,7 @@ The application uses **MySQL** to store and manage account data, making informat
 * Retrieve account information from the database
 * Logout
 
-## Concepts Used
+Concepts Used
 
 * Classes and Objects
 * Encapsulation
@@ -72,7 +72,6 @@ ACCOUNT MENU
 4. Transfer
 5. Transaction History
 6. Logout
-```
 
 Database
 The application uses **MySQL** as its database and **JDBC** to allow Java to communicate with MySQL.
@@ -88,25 +87,25 @@ Technologies Used
 * NetBeans IDE
 * Git & GitHub
 
-**Database**
+Database
 The application connects to a local MySQL database using JDBC.
 
 Example connection:
 
 Java Application -- JDBC -- MySQL -- ATM Database
 
-**Future Improvements**
-
-* Change PIN functionality
-* Improve error handling and validation
-* Add password or PIN hashing and stronger authentication
-* Add a graphical user interface using JavaFX
-* Add more advanced transaction management
-* Add an administrator interface
-* Add account deletion functionality
-* Add account statement generation
-* Improve database security
-* Deploy the application using a remote database
+Future Improvements
+-
+- Change PIN functionality
+- Improve error handling and validation
+- Add password or PIN hashing and stronger authentication
+- Add a graphical user interface using JavaFX
+- Add more advanced transaction management
+- Add an administrator interface
+- Add account deletion functionality
+- Add account statement generation
+- Improve database security
+- Deploy the application using a remote database
 
 Author 
 **Siphelele Tolibadi**
